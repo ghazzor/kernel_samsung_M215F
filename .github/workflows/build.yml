@@ -26,7 +26,6 @@ jobs:
           
       - name: Setup Tollchains & Build
         run: |
-          export PATH=$PWD/toolchain/proton-clang/bin:$PATH
           bash ${{ github.event.inputs.TOOL_CHAIN }}.sh
           echo "Cleaning Stuff"
           rm -rf AIK/Image
