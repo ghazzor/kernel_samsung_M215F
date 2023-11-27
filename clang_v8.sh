@@ -17,6 +17,3 @@ export ANDROID_MAJOR_VERSION=s
 
 make CC=clang ARCH=arm64 KCFLAGS=-w CONFIG_SECTION_MISMATCH_WARN_ONLY=y exynos9610-m21dd_defconfig
 make CC=clang ARCH=arm64 KCFLAGS=-w CONFIG_SECTION_MISMATCH_WARN_ONLY=y -j$(nproc)
-
-
-bash mkzip.sh
