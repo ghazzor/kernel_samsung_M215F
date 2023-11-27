@@ -1,4 +1,4 @@
-bash init_default.sh
+git clone --depth=1 https://github.com/CruelKernel/samsung-exynos9820-toolchain -b samsung sammy_clang_v8
 export PATH=$PWD/sammy_clang_v8/clang/host/linux-x86/clang-r349610-jopp/bin:$PATH
 
 
